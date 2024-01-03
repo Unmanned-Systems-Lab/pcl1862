@@ -15,6 +15,10 @@
 - [OpenCV](https://opencv.org/)：用于图像处理的开源计算机视觉库。
 
 ## 使用方法
-1. **克隆存储库:**
-   ```bash
-   git clone https://github.com/yourusername/lidar-obstacle-detection.git
+1. **构建和编译:**
+   ```
+   bash
+   cd lidar-obstacle-detection
+   mkdir build && cd build
+   cmake ..
+   make
